@@ -1,0 +1,29 @@
+<div class="cart-wrapper">
+  <h2>Cart</h2>
+
+  <div *ngIf="items.length === 0 && !orderConfirmed">Your cart is empty.</div>
+
+  <ul *ngIf="items.length > 0" class="cart-items">
+    <li *ngFor="let item of items" class="cart-item">
+      <img
+        [src]="'assets/images/' + item.drink.image"
+        [alt]="item.drink.name"
+      />
+      <div class="details">
+        <strong>{{ item.drink.name }}</strong>
+        <p>{{ item.quantity }} × {{ item.drink.price }}</p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="summary" *ngIf="items.length > 0">
+    <p><strong>Total:</strong> {{ getTotal() }}</p>
+    <button mat-raised-button color="primary" (click)="checkout()">
+      Checkout
+    </button>
+  </div>
+
+  <div class="confirmation" *ngIf="orderConfirmed">
+    ✅ Order placed! Thank you!
+  </div>
+</div>

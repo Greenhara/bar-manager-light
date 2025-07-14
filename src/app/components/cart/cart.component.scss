@@ -1,0 +1,52 @@
+.cart-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+
+  li.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+
+  .total {
+    font-weight: bold;
+    margin-top: 24px;
+
+    button {
+      margin-top: 12px;
+      background-color: var(--color-green);
+      color: white;
+    }
+  }
+
+  .confirmation {
+    margin-top: 24px;
+    font-weight: bold;
+  }
+}
+.drink-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 16px;
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Aperol Spritz",
+    "image": "aperol-spritz.jpg",
+    "description": "Aperol, prosecco, and soda water.",
+    "price": "$12"
+  },
+  {
+    "id": 2,
+    "name": "Cosmopolitan",
+    "image": "cosmopolitan.jpg",
+    "description": "Vodka, triple sec, cranberry juice, and lime.",
+    "price": "$13"
+  },
+  {
+    "id": 3,
+    "name": "Cuba Libre",
+    "image": "cuba-libre.jpg",
+    "description": "Rum, cola, and lime.",
+    "price": "$11"
+  },
+  {
+    "id": 4,
+    "name": "Daiquiri",
+    "image": "daiquiri.jpg",
+    "description": "Rum, lime juice, and sugar.",
+    "price": "$12"
+  },
+  {
+    "id": 5,
+    "name": "Espresso Martini",
+    "image": "espresso-martini.jpg",
+    "description": "Vodka, coffee liqueur, and espresso.",
+    "price": "$14"
+  },
+  {
+    "id": 6,
+    "name": "Gin & Tonic",
+    "image": "gin-tonic.jpg",
+    "description": "Gin and tonic water with lime.",
+    "price": "$10"
+  },
+  {
+    "id": 7,
+    "name": "Mai Tai",
+    "image": "mai-tai.jpg",
+    "description": "Rum, lime juice, orgeat syrup, and orange liqueur.",
+    "price": "$13"
+  },
+  {
+    "id": 8,
+    "name": "Margarita",
+    "image": "margarita.jpg",
+    "description": "Tequila, triple sec, and lime juice.",
+    "price": "$12"
+  },
+  {
+    "id": 9,
+    "name": "Mojito",
+    "image": "mojito.jpg",
+    "description": "Rum, mint, lime, sugar, and soda water.",
+    "price": "$11"
+  },
+  {
+    "id": 10,
+    "name": "Moscow Mule",
+    "image": "moscow-mule.jpg",
+    "description": "Vodka, ginger beer, and lime.",
+    "price": "$12"
+  },
+  {
+    "id": 11,
+    "name": "Negroni",
+    "image": "negroni.jpg",
+    "description": "Gin, Campari, and sweet vermouth.",
+    "price": "$13"
+  },
+  {
+    "id": 12,
+    "name": "Old Fashioned",
+    "image": "old-fashioned.jpg",
+    "description": "Whiskey, sugar, bitters, and orange.",
+    "price": "$14"
+  },
+  {
+    "id": 13,
+    "name": "Pina Colada",
+    "image": "pina-colada.jpg",
+    "description": "Rum, coconut cream, and pineapple juice.",
+    "price": "$12"
+  },
+  {
+    "id": 14,
+    "name": "Sex on the Beach",
+    "image": "sex-on-the-beach.jpg",
+    "description": "Vodka, peach schnapps, orange and cranberry juice.",
+    "price": "$13"
+  },
+  {
+    "id": 15,
+    "name": "White Russian",
+    "image": "white-russian.jpg",
+    "description": "Vodka, coffee liqueur, and cream.",
+    "price": "$12"
+  }
+]

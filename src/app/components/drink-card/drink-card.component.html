@@ -1,0 +1,9 @@
+<div class="drink-card">
+  <img [src]="'assets/images/' + drink.image" [alt]="drink.name" />
+  <h3>{{ drink.name }}</h3>
+  <p>{{ drink.description }}</p>
+  <p class="price">{{ drink.price }}</p>
+  <button mat-raised-button color="primary" (click)="addToCart()">
+    Add to Cart
+  </button>
+</div>
