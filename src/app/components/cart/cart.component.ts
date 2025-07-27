@@ -29,7 +29,7 @@ export class CartComponent {
 
   clearCart(): void {
     this.cartService.clearCart();
-    this.items = [];
+    this.items = this.cartService.getItems();
   }
 
   checkout(): void {
